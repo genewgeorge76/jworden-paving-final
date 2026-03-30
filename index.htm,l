@@ -4,39 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>J. Worden & Sons Asphalt Paving | Richmond's #1 Paving Legacy</title>
-    <meta name="description" content="4th-generation J. Worden & Sons Asphalt Paving. Serving Richmond 23221, Chester, and 41 cities since 1984. Driveways, parking lots, and sealcoating.">
+    <meta name="description" content="4th-generation J. Worden & Sons Asphalt Paving. Serving Richmond 23221, Chester, and 41 cities. Premium driveways and parking lots since 1984.">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="supermax-build">
+<body style="margin:0; font-family: sans-serif; background:#f9f9f9;">
 
-<header class="main-header" style="background:#1A1A1A; color:#fff; padding:30px; border-bottom:5px solid #F7D100; text-align:center;">
-    <h1 style="color:#F7D100; margin:0; font-size:2.5rem; text-transform:uppercase;">J. Worden & Sons Asphalt Paving</h1>
-    <p style="margin:10px 0; font-weight:700;">4th-Generation Paving Authority • Est. 1984</p>
+<header style="background:#1A1A1A; color:#fff; padding:40px 20px; border-bottom:5px solid #F7D100; text-align:center;">
+    <h1 style="color:#F7D100; margin:0; font-size:2.2rem; text-transform:uppercase;">J. Worden & Sons Asphalt Paving</h1>
+    <p style="margin:10px 0; font-weight:700; letter-spacing:1px;">4th-Generation Paving Authority • Est. 1984</p>
     <p><strong>Chester HQ:</strong> 1601 Ware Bottom Springs Rd, Suite 214, Chester, VA 23836</p>
-    <a href="tel:8044461296" style="color:#F7D100; font-size:1.8rem; text-decoration:none; font-weight:800;">📞 (804) 446-1296</a>
+    <a href="tel:8044461296" style="color:#F7D100; font-size:1.8rem; text-decoration:none; font-weight:800; display:block; margin-top:15px;">📞 (804) 446-1296</a>
 </header>
 
-<section id="services" style="padding:50px 10%; text-align:center;">
-    <h2>Richmond's Premium Paving Solutions</h2>
-    <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:25px; margin-top:30px;">
-        <div style="border:2px solid #F7D100; padding:20px;"><h3>Asphalt Driveways</h3><p>Custom residential paving for 23221 & beyond.</p></div>
-        <div style="border:2px solid #F7D100; padding:20px;"><h3>Commercial Lots</h3><p>Trusted by KFC, Wendy's, and Retail Hubs.</p></div>
-        <div style="border:2px solid #F7D100; padding:20px;"><h3>Sealcoating</h3><p>Industrial-grade protection for maximum life.</p></div>
-    </div>
+<section id="hero" style="background:#fff; padding:60px 10%; text-align:center; border-bottom:1px solid #ddd;">
+    <h2 style="font-size:2rem;">Premium Asphalt Solutions for Richmond & Central VA</h2>
+    <p style="max-width:800px; margin:20px auto; line-height:1.6; font-size:1.1rem; color:#444;">
+        From **Windsor Farms** driveways to **KFC** and **Wendy's** parking lots, the Worden family has provided 4 generations of paving excellence. We dominate the 23221 area and 41 surrounding cities with 100% Google-approved best practices.
+    </p>
 </section>
 
 <section id="contact" style="background:#f4f4f4; padding:60px 10%; text-align:center;">
-    <div style="max-width:600px; margin:auto; background:#fff; padding:40px; border-top:8px solid #F7D100; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-        <h2 style="margin-top:0;">Request a Free Estimate</h2>
-        <p>Your lead goes directly to J. Worden & Sons Asphalt Paving HQ</p>
-        <form action="https://app.kickserv.com/account/60655/leads" method="POST" style="display:flex; flex-direction:column; gap:15px;">
-            <input type="text" name="customer[first_name]" placeholder="First Name" required style="padding:12px; border:1px solid #ccc;">
-            <input type="text" name="customer[last_name]" placeholder="Last Name" required style="padding:12px; border:1px solid #ccc;">
-            <input type="email" name="customer[email]" placeholder="Email" required style="padding:12px; border:1px solid #ccc;">
-            <input type="tel" name="customer[phone]" placeholder="Phone Number" required style="padding:12px; border:1px solid #ccc;">
-            <input type="text" name="customer[service_address]" placeholder="Project Address" required style="padding:12px; border:1px solid #ccc;">
-            <textarea name="job[description]" placeholder="Project Details (e.g. Richmond 23221 Driveway)" style="padding:12px; height:100px; border:1px solid #ccc;"></textarea>
-            <button type="submit" style="background:#F7D100; color:#1A1A1A; font-weight:900; padding:18px; border:none; cursor:pointer; text-transform:uppercase; font-size:1.1rem;">Submit to J. Worden & Sons →</button>
+    <div style="max-width:550px; margin:auto; background:#fff; padding:40px; border-top:8px solid #F7D100; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+        <h2 style="margin-top:0; color:#1A1A1A;">Request a Free Estimate</h2>
+        <p style="color:#666;">Direct connection to our Chester HQ Scheduling Office</p>
+        
+        <form action="https://app.kickserv.com/account/60655/leads" method="POST" style="display:flex; flex-direction:column; gap:15px; text-align:left;">
+            <input type="hidden" name="source" value="jworden_live_launch">
+            <label style="font-weight:bold;">First Name</label>
+            <input type="text" name="customer[first_name]" required style="padding:12px; border:1px solid #ccc;">
+            <label style="font-weight:bold;">Last Name</label>
+            <input type="text" name="customer[last_name]" required style="padding:12px; border:1px solid #ccc;">
+            <label style="font-weight:bold;">Phone Number</label>
+            <input type="tel" name="customer[phone]" placeholder="(804) 446-1296" required style="padding:12px; border:1px solid #ccc;">
+            <label style="font-weight:bold;">Job Site Address</label>
+            <input type="text" name="customer[service_address]" placeholder="Richmond, Chester, etc." required style="padding:12px; border:1px solid #ccc;">
+            <label style="font-weight:bold;">Project Details</label>
+            <textarea name="job[description]" placeholder="Describe your paving needs..." style="padding:12px; height:100px; border:1px solid #ccc;"></textarea>
+            
+            <button type="submit" style="background:#F7D100; color:#1A1A1A; font-weight:900; padding:20px; border:none; cursor:pointer; text-transform:uppercase; font-size:1.2rem; margin-top:10px;">Connect to J. Worden Dashboard →</button>
         </form>
     </div>
 </section>
@@ -44,7 +49,7 @@
 <footer style="background:#1A1A1A; color:#fff; text-align:center; padding:40px;">
     <p style="font-weight:800; font-size:1.2rem; color:#F7D100;">J. Worden & Sons Asphalt Paving</p>
     <p>1601 Ware Bottom Springs Rd, Suite 214, Chester, VA 23836</p>
-    <p>© 2026 J. Worden & Sons Asphalt Paving. 4th-Generation Legacy.</p>
+    <p>© 2026 J. Worden & Sons. All Rights Reserved.</p>
 </footer>
 
 </body>
